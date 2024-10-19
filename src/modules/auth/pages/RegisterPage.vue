@@ -38,7 +38,8 @@
     <div class="mb-6 text-blue-500"></div>
     <!-- Login Button -->
     <button
-      type="submit"
+      @click="onRegister"
+      type="button"
       class="bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-md py-2 px-4 w-full"
     >
       Sign Up
@@ -51,3 +52,15 @@
     >
   </div>
 </template>
+
+<script lang="ts" setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const onRegister = () => {
+  router.replace({
+    name: 'home',
+  })
+}
+</script>
