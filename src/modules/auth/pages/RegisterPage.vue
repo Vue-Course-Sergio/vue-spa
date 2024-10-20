@@ -47,20 +47,18 @@
   </form>
   <!-- Sign up  Link -->
   <div class="mt-6 text-blue-500 text-center">
-    <RouterLink :to="{ name: 'login' }" class="hover:underline"
-      >Log in Here</RouterLink
-    >
+    <RouterLink :to="{ name: 'login' }" class="hover:underline">Log in Here</RouterLink>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { useRouter } from 'vue-router'
+import { useRouter } from 'vue-router';
 
-const router = useRouter()
+const router = useRouter();
 
 const onRegister = () => {
   router.replace({
     name: 'home',
-  })
-}
+  });
+};
 </script>

@@ -24,29 +24,21 @@
           <div class="pt-8">
             <p class="font-semibold text-gray-400 text-left">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                Get started with <span class="text-black">messaging</span>
-              </span>
+              <span class="pl-2"> Get started with <span class="text-black">messaging</span> </span>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                Flexible <span class="text-black">team meetings</span>
-              </span>
+              <span class="pl-2"> Flexible <span class="text-black">team meetings</span> </span>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                <span class="text-black">5 TB</span> cloud storage
-              </span>
+              <span class="pl-2"> <span class="text-black">5 TB</span> cloud storage </span>
             </p>
 
             <a href="#" class="">
               <p class="w-full py-4 bg-blue-600 mt-8 rounded-xl text-white">
                 <span class="font-medium"> Choose Plan </span>
-                <span class="pl-2 material-icons align-middle text-sm">
-                  east
-                </span>
+                <span class="pl-2 material-icons align-middle text-sm"> east </span>
               </p>
             </a>
           </div>
@@ -65,36 +57,26 @@
           <div class="pt-8">
             <p class="font-semibold text-gray-400 text-left">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                All features in <span class="text-white">Basic</span>
-              </span>
+              <span class="pl-2"> All features in <span class="text-white">Basic</span> </span>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                Flexible <span class="text-white">call scheduling</span>
-              </span>
+              <span class="pl-2"> Flexible <span class="text-white">call scheduling</span> </span>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                <span class="text-white">15 TB</span> cloud storage
-              </span>
+              <span class="pl-2"> <span class="text-white">15 TB</span> cloud storage </span>
             </p>
 
             <a href="#" class="">
               <p class="w-full py-4 bg-blue-600 mt-8 rounded-xl text-white">
                 <span class="font-medium"> Choose Plan </span>
-                <span class="pl-2 material-icons align-middle text-sm">
-                  east
-                </span>
+                <span class="pl-2 material-icons align-middle text-sm"> east </span>
               </p>
             </a>
           </div>
           <div class="absolute top-4 right-4">
-            <p
-              class="bg-blue-700 font-semibold px-4 py-1 rounded-full uppercase text-xs"
-            >
+            <p class="bg-blue-700 font-semibold px-4 py-1 rounded-full uppercase text-xs">
               Popular
             </p>
           </div>
@@ -111,29 +93,21 @@
           <div class="pt-8">
             <p class="font-semibold text-gray-400 text-left">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                All features in <span class="text-black">Startup</span>
-              </span>
+              <span class="pl-2"> All features in <span class="text-black">Startup</span> </span>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                Growth <span class="text-black">oriented</span>
-              </span>
+              <span class="pl-2"> Growth <span class="text-black">oriented</span> </span>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5">
               <span class="material-icons align-middle"> done </span>
-              <span class="pl-2">
-                <span class="text-black">Unlimited</span> cloud storage
-              </span>
+              <span class="pl-2"> <span class="text-black">Unlimited</span> cloud storage </span>
             </p>
 
             <a href="#" class="">
               <p class="w-full py-4 bg-blue-600 mt-8 rounded-xl text-white">
                 <span class="font-medium"> Choose Plan </span>
-                <span class="pl-2 material-icons align-middle text-sm">
-                  east
-                </span>
+                <span class="pl-2 material-icons align-middle text-sm"> east </span>
               </p>
             </a>
           </div>

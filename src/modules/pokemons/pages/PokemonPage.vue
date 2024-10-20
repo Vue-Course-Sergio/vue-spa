@@ -20,8 +20,8 @@
 
 <script lang="ts" setup>
 interface Props {
-  id: number
+  id: number;
 }
 
-defineProps<Props>()
+defineProps<Props>();
 </script>

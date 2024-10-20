@@ -25,12 +25,7 @@
     </div>
     <!-- Remember Me Checkbox -->
     <div class="mb-4 flex items-center">
-      <input
-        type="checkbox"
-        id="remember"
-        name="remember"
-        class="text-blue-500"
-      />
+      <input type="checkbox" id="remember" name="remember" class="text-blue-500" />
       <label for="remember" class="text-gray-600 ml-2">Remember Me</label>
     </div>
     <!-- Forgot Password Link -->
@@ -48,22 +43,20 @@
   </form>
   <!-- Sign up  Link -->
   <div class="mt-6 text-blue-500 text-center">
-    <RouterLink :to="{ name: 'register' }" class="hover:underline"
-      >Sign up Here</RouterLink
-    >
+    <RouterLink :to="{ name: 'register' }" class="hover:underline">Sign up Here</RouterLink>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { useRouter } from 'vue-router'
+import { useRouter } from 'vue-router';
 
-const router = useRouter()
+const router = useRouter();
 
 const onLogin = () => {
-  localStorage.setItem('userId', 'ABC-123')
+  localStorage.setItem('userId', 'ABC-123');
 
-  const lastPath = localStorage.getItem('last-path') ?? '/'
+  const lastPath = localStorage.getItem('last-path') ?? '/';
 
-  router.replace(lastPath)
-}
+  router.replace(lastPath);
+};
 </script>
