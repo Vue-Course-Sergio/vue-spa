@@ -1,13 +1,13 @@
 import type { NavigationGuardNext, RouteLocationNormalized } from 'vue-router';
 
-const isAuthenticatedGuard = (
+const isAuthenticatedGuard = async (
   to: RouteLocationNormalized,
   from: RouteLocationNormalized,
   next: NavigationGuardNext,
 ) => {
   const userId = localStorage.getItem('userId');
 
-  localStorage.setItem('last-path', to.path);
+  localStorage.setItem('lastPath', to.path);
 
   if (!userId)
     return next({
